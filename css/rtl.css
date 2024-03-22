@@ -20442,6 +20442,22 @@ header {
     margin: 0;
 }
 
+.img-3d {
+    animation: upAndDown 5s ease infinite;
+}
+
+@keyframes upAndDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .container-fluid2 {
     background-image: linear-gradient(to right, white, #fdf3eb);
     max-width: 100%;
