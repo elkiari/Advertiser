@@ -20580,7 +20580,7 @@ header {
 
     .bg_process {
         padding-left: 20px;
-        margin-top: 400px;
+        margin-top: 60px !important;
     }
 
     .main-box {
@@ -20608,7 +20608,7 @@ header {
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 90px;
 }
 
